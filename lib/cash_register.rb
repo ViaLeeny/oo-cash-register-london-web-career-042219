@@ -21,6 +21,7 @@ class CashRegister
     
     if discount >= 1 
       self.title*self.discount
+      return
     else 
       puts "there is no discount to apply"
     end 
