@@ -18,7 +18,12 @@ class CashRegister
   end 
   
   def apply_discount
-    title*discount
+    
+    if discount >0 
+      title*discount
+    else 
+      puts "there is no discount to apply"
+    end 
   end 
   
   
